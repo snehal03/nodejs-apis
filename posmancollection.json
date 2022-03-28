@@ -1,0 +1,246 @@
+{
+	"id": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+	"name": "node-apis",
+	"description": "",
+	"order": [
+		"942bbf95-7bad-4540-0a32-522a07ed0883",
+		"df9b5af9-b3ff-1c40-9717-9d15c4eee093",
+		"629ccd1e-fa8c-39f9-2def-25857768a527",
+		"d32df120-8603-b7f8-1cfd-27f12266ce35",
+		"f6cb8a03-42d9-d3b9-aea6-8b3965a8b869",
+		"862a4c02-79a7-ce59-d736-993685199279",
+		"f2f7ce45-9fbc-e754-08d6-cdf4324da956"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1648444133251,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "629ccd1e-fa8c-39f9-2def-25857768a527",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/feed/post/624157c3c7d29f67dc314fa4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1648470859600,
+			"name": "getPostById",
+			"description": "",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"responses": []
+		},
+		{
+			"id": "862a4c02-79a7-ce59-d736-993685199279",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/auth/signup",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"data": [],
+			"dataMode": "raw",
+			"name": "signup",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1648468245138,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\": \"Snehal\",\n\t\"email\": \"snehaldhane03@gmail.com\",\n\t\"password\": \"snehal_098\"\n}"
+		},
+		{
+			"id": "942bbf95-7bad-4540-0a32-522a07ed0883",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/feed/posts",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1648469820198,
+			"name": "getPosts",
+			"description": "",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"responses": []
+		},
+		{
+			"id": "d32df120-8603-b7f8-1cfd-27f12266ce35",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/feed/post/624157c3c7d29f67dc314fa4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1648470866168,
+			"name": "updatePost",
+			"description": "",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Duck Post2!\",\n\t\"content\": \"This is content of Duck Post2!\",\n\t\"image\": \"/home/excellarate/Downloads/duck1.jpg\"\n}"
+		},
+		{
+			"id": "df9b5af9-b3ff-1c40-9717-9d15c4eee093",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/feed/post",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1648470846985,
+			"name": "createPost",
+			"description": "",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Duck Post3!\",\n\t\"content\": \"This is content of Duck Post3!\",\n\t\"image\": \"/home/excellarate/Downloads/duck1.jpg\"\n}"
+		},
+		{
+			"id": "f2f7ce45-9fbc-e754-08d6-cdf4324da956",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/auth/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"data": [],
+			"dataMode": "raw",
+			"name": "login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1648468299544,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\": \"snehaldhane03@gmail.com\",\n\t\"password\": \"snehal_098\"\n}"
+		},
+		{
+			"id": "f6cb8a03-42d9-d3b9-aea6-8b3965a8b869",
+			"headers": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNuZWhhbGRoYW5lMDNAZ21haWwuY29tIiwidXNlcklkIjoiNjI0MTk5M2ZmNjVlMzJmNTliYmUyNDNjIiwiaWF0IjoxNjQ4NDY4MjkyLCJleHAiOjE2NDg0NzE4OTJ9.o_tfTFpL193xoyWnFo537z9xIUVdidwsOoNNE9KoMtE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8080/feed/post/624157c3c7d29f67dc314fa4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [
+				{
+					"key": "Au",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1648470876113,
+			"name": "deletePost",
+			"description": "",
+			"collectionId": "1251e8c6-5dab-1a56-8d37-b3d3ae014b08",
+			"responses": []
+		}
+	]
+}
